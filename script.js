@@ -44,13 +44,5 @@ function addListAfterKeypress(event) {
 	}
 }
 
-
-// for(i=0;i<list.length;i++){
-// 	list[i].onclick = list[i].classList.toggle("done");
-// }
-
-
-
 button.addEventListener("click", addListAfterClick);
-
 input.addEventListener("keypress", addListAfterKeypress);
